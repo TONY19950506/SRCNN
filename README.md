@@ -21,6 +21,6 @@ The network structure of SRCNN is simple, using only three convolutional layers
 
 # Loss function 
 Use Mean-square error(MSE) to be it's loss function.Among them,minimizing MSE is maximizing PSNR.
-     ![tempsnip](https://github.com/TONY19950506/SRCNN/assets/110157487/9608040a-2163-4bf9-beac-ca17bbeb8915)
-     ![tempsnip](https://github.com/TONY19950506/SRCNN/assets/110157487/20fda5ba-331c-458c-9ece-cbba9335c7c0)
+       ![tempsnip](https://github.com/TONY19950506/SRCNN/assets/110157487/9608040a-2163-4bf9-beac-ca17bbeb8915)
+       ![tempsnip](https://github.com/TONY19950506/SRCNN/assets/110157487/20fda5ba-331c-458c-9ece-cbba9335c7c0)
 
