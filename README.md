@@ -16,4 +16,4 @@ The network structure of SRCNN is simple, using only three convolutional layers
 
 3. Reconstruction
 
-![tempsnip](https://github.com/TONY19950506/SRCNN/assets/110157487/90b2790e-55f7-4f26-806b-c4da9c00aa27)
+   ![tempsnip](https://github.com/TONY19950506/SRCNN/assets/110157487/90b2790e-55f7-4f26-806b-c4da9c00aa27)
