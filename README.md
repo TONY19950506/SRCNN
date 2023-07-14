@@ -26,7 +26,7 @@ Use Mean-square error(MSE) to be it's loss function.Among them,minimizing MSE is
 
 # The result of own experiment
 Training dataset : 91-image  
-Test dataset : Set5 
+Test dataset : Set5   
 Scale : 3  
 Lr : 1e-4  
 batch-size : 16  
