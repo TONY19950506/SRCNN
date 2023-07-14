@@ -32,6 +32,6 @@ Lr : 1e-4
 batch-size : 16
 epochs : 400
 
-     ![tempsnip](https://github.com/TONY19950506/SRCNN/assets/110157487/e8b69174-5147-4639-a54c-c52185ef27e2)
+![tempsnip](https://github.com/TONY19950506/SRCNN/assets/110157487/e8b69174-5147-4639-a54c-c52185ef27e2)
 
 
