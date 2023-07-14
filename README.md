@@ -6,3 +6,6 @@ SRCNN is a method for single image super-resolution.It learns an end-to-end mapp
 ![tempsnip](https://github.com/TONY19950506/SRCNN/assets/110157487/ea51051e-3819-455f-b9b6-929fcf43db07)
 
 The network structure of SRCNN is simple, using only three convolutional layers
+1. Patch extraction and representation
+2. Non-linear mapping
+3. Reconstruction
