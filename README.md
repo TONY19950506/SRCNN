@@ -25,8 +25,8 @@ Use Mean-square error(MSE) to be it's loss function.Among them,minimizing MSE is
        ![tempsnip](https://github.com/TONY19950506/SRCNN/assets/110157487/20fda5ba-331c-458c-9ece-cbba9335c7c0)
 
 # The result of own experiment
-Training dataset : 91-image_x3  
-Test dataset : Set5_x3  
+Training dataset : 91-image
+Test dataset : Set5 
 Scale : 3  
 Lr : 1e-4  
 batch-size : 16  
