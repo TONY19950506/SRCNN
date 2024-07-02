@@ -28,9 +28,9 @@ The SRCNN model consists of three convolutional layers:
 
 Example results obtained using the SRCNN model:
 
-| Low-Resolution Image | Super-Resolution Image | Ground Truth |
-|----------------------|------------------------|--------------|
-| ![LR](examples/lr.png) | ![SR](examples/sr.png) | ![GT](examples/gt.png) |
+| Low-Resolution Image | Super-Resolution Image |
+|----------------------|------------------------|
+| ![LR](images/srcnn_lr.jpg) | ![SR](images/srcnn_sr.jpg) | 
 
 ## References
 
