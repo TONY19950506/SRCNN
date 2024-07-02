@@ -1,37 +1,41 @@
-# SRCNN
+# SRCNN: Super-Resolution Convolutional Neural Network
 
-SRCNN is a method for single image super-resolution.It learns an end-to-end mapping between the low/high-resolution images.The mapping is represented as a deep convolutional neural network (CNN) that takes the low-resolution image as the input and outputs the high-resolution one.
+This repository contains the implementation of the SRCNN (Super-Resolution Convolutional Neural Network) model for image super-resolution.
 
-Link to original paper : http://personal.ie.cuhk.edu.hk/~ccloy/files/eccv_2014_deepresolution.pdf
-# Architecture
-![tempsnip](https://github.com/TONY19950506/SRCNN/assets/110157487/ea51051e-3819-455f-b9b6-929fcf43db07)
+## Overview
 
-The network structure of SRCNN is simple, using only three convolutional layers
-1. Patch extraction and representation
+SRCNN is a deep learning model designed to enhance the resolution of low-resolution images by predicting the high-resolution version of the input image. This method is particularly useful in applications where high-quality images are required, such as medical imaging, satellite imaging, and various computer vision tasks.
 
-     ![tempsnip](https://github.com/TONY19950506/SRCNN/assets/110157487/ee7489a8-2278-42c9-8dc7-6dedf70b0777)
+## Features
 
-3. Non-linear mapping
+- Implementation of the SRCNN architecture.
+- Pre-trained models for quick inference.
+- Scripts for training the SRCNN model on custom datasets.
+- Evaluation metrics for comparing performance with other super-resolution methods.
 
-     ![tempsnip](https://github.com/TONY19950506/SRCNN/assets/110157487/e78c4475-8534-4828-8968-43783d9a71d5)
+## Architecture
 
-3. Reconstruction
+The SRCNN model consists of three convolutional layers:
 
-     ![tempsnip](https://github.com/TONY19950506/SRCNN/assets/110157487/90b2790e-55f7-4f26-806b-c4da9c00aa27)
+1. **Patch extraction and representation**: Extracts overlapping patches from the input image and represents them at a high-dimensional feature space.
+2. **Non-linear mapping**: Maps the high-dimensional feature representation to another high-dimensional feature space.
+3. **Reconstruction**: Aggregates the high-dimensional features to reconstruct the high-resolution image.
 
-# Loss function 
-Use Mean-square error(MSE) to be it's loss function.Among them,minimizing MSE is maximizing PSNR.
-       ![tempsnip](https://github.com/TONY19950506/SRCNN/assets/110157487/9608040a-2163-4bf9-beac-ca17bbeb8915)
-       ![tempsnip](https://github.com/TONY19950506/SRCNN/assets/110157487/20fda5ba-331c-458c-9ece-cbba9335c7c0)
+![SRCNN Architecture](path_to_architecture_image)
 
-# The result of own experiment
-Training dataset : 91-image  
-Test dataset : Set5   
-Scale : 3  
-Lr : 1e-4  
-batch-size : 16  
-epochs : 400  
 
-![tempsnip](https://github.com/TONY19950506/SRCNN/assets/110157487/e8b69174-5147-4639-a54c-c52185ef27e2)
+## Results
+
+Example results obtained using the SRCNN model:
+
+| Low-Resolution Image | Super-Resolution Image | Ground Truth |
+|----------------------|------------------------|--------------|
+| ![LR](examples/lr.png) | ![SR](examples/sr.png) | ![GT](examples/gt.png) |
+
+## References
+
+- [Image Super-Resolution Using Deep Convolutional Networks (ECCV 2014)](https://arxiv.org/abs/1501.00092)
+- [Learning a Deep Convolutional Network for Image Super-Resolution (CVPR 2016)](https://ieeexplore.ieee.org/document/7780551)
+
 
 
