@@ -21,7 +21,7 @@ The SRCNN model consists of three convolutional layers:
 2. **Non-linear mapping**: Maps the high-dimensional feature representation to another high-dimensional feature space.
 3. **Reconstruction**: Aggregates the high-dimensional features to reconstruct the high-resolution image.
 
-![SRCNN Architecture](images/srcnn_架構.PNG)
+![SRCNN Architecture](images/srcnn_1.PNG)
 
 
 ## Results
